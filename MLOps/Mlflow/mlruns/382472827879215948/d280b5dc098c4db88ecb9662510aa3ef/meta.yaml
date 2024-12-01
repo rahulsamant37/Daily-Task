@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/382472827879215948/d280b5dc098c4db88ecb9662510aa3ef/artifacts
+end_time: 1733034731486
+entry_point_name: ''
+experiment_id: '382472827879215948'
+lifecycle_stage: active
+run_id: d280b5dc098c4db88ecb9662510aa3ef
+run_name: resilient-hog-826
+run_uuid: d280b5dc098c4db88ecb9662510aa3ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733034691409
+status: 3
+tags: []
+user_id: rahul
