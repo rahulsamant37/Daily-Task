@@ -1,4 +1,5 @@
 venv
 .env
-scraper.py
-assets.py
+__pycache__
+mlartifacts
+mlruns
