@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/382472827879215948/d9151d51802a4175b21d9ac7860ffd00/artifacts
+end_time: 1733035066784
+entry_point_name: ''
+experiment_id: '382472827879215948'
+lifecycle_stage: active
+run_id: d9151d51802a4175b21d9ac7860ffd00
+run_name: exultant-squirrel-73
+run_uuid: d9151d51802a4175b21d9ac7860ffd00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733035060143
+status: 3
+tags: []
+user_id: rahul
