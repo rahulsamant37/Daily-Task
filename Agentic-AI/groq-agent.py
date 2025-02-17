@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
-os.environ['LANGSMITH_API_KEY']=os.getenv('LANGCHAIN_API_KEY')
+os.environ["LANGSMITH_API_KEY"]=os.getenv("LANGSMITH_API_KEY")
 llm=ChatGroq(model="qwen-2.5-32b")
 
 ## Defining the model
@@ -56,8 +56,9 @@ def make_alternative_graph():
         return x+y
     
     ## Binding the tools to the model
-    tool_node=ToolNode([add])
-    model_with_tools = llm.bind_tools(tool_node)
+    tools=[add]
+    tool_node=ToolNode(tools)
+    model_with_tools = llm.bind_tools(tools)
 
     ## Defining the tools node
     def call_model_with_tools(state):
@@ -73,13 +74,13 @@ def make_alternative_graph():
     workflow=StateGraph(MessagesState)
 
     ## addding node
-    workflow.add_node("llm",llm_calling)
-    workflow.add_node("tools",call_model_with_tools)
+    workflow.add_node("llm",call_model_with_tools)
+    workflow.add_node("tools",tool_node)
 
     ## adding edges
     workflow.add_edge(START,"llm")
     workflow.add_edge("llm","tools")
-    workflow.add_conditional_edge("tools",should_continue)
+    workflow.add_conditional_edges("tools",should_continue)
 
     ## compile the workflow
     graph=workflow.compile()
