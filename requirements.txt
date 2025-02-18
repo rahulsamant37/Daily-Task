@@ -5,3 +5,4 @@ langgraph
 langchain_groq
 langgraph-cli[inmem]
 ipykernel
+pydantic
