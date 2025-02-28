@@ -9,3 +9,4 @@ pydantic
 langchain_community
 langchain_experimental
 duckduckgo-search
+boto3
