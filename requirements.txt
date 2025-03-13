@@ -15,3 +15,4 @@ speechRecognition
 wikipedia
 pyaudio
 gtts
+playsound
