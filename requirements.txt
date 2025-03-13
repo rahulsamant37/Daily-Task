@@ -14,3 +14,4 @@ pyttsx3
 speechRecognition
 wikipedia
 pyaudio
+gtts
