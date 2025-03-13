@@ -10,3 +10,7 @@ langchain_experimental
 duckduckgo-search
 boto3
 groq
+pyttsx3
+speechRecognition
+wikipedia
+pyaudio
