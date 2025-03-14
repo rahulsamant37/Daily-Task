@@ -16,3 +16,5 @@ wikipedia
 pyaudio
 gtts
 playsound
+chormadb
+chroma-hnswlib
