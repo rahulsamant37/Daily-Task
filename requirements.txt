@@ -20,3 +20,4 @@ playsound
 chormadb
 chroma-hnswlib
 agno
+duckduckgo-search
