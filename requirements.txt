@@ -1,4 +1,5 @@
 python-dotenv
+ipywidgets
 IPython
 langchain
 langgraph
@@ -18,3 +19,4 @@ gtts
 playsound
 chormadb
 chroma-hnswlib
+agno
