@@ -8,7 +8,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9aa46d8b-05f8-4564-a67b-ea63cd4822f2" width="100%" alt="Development Journey Banner">
+  <img src="https://media.licdn.com/dms/image/v2/D561FAQHSopeKiSeQAA/feedshare-document-images_800/B56ZWXaiuyHQAc-/1/1742002082210?e=1743033600&v=beta&t=Ee3xCId6zS3WDPjTl9jy34I49nUagRNSdrr6OrMmMHA" width="100%" alt="Development Journey Banner">
 </div>
 
 ## 💡 About This Repository
