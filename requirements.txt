@@ -21,3 +21,13 @@ chormadb
 chroma-hnswlib
 agno
 duckduckgo-search
+googlesearch-python
+langchain_mcp_adapters
+langgraph
+streamlit
+langchain_experimental
+openai
+langchain_openai
+langchain_ollama
+langchain_groq
+langchain_google_genai
