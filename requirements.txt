@@ -17,7 +17,7 @@ wikipedia
 pyaudio
 gtts
 playsound
-chormadb
+chromadb
 chroma-hnswlib
 agno
 duckduckgo-search
