@@ -1,0 +1,52 @@
+{
+  "1": {
+    "name": "Alice Johnson",
+    "city": "New York",
+    "age": 34,
+    "gender": "Female",
+    "height": 1.65,
+    "weight": 68,
+    "bmi": 24.98,
+    "verdict": "Normal weight"
+  },
+  "2": {
+    "name": "Michael Chen",
+    "city": "San Francisco",
+    "age": 45,
+    "gender": "Male",
+    "height": 1.78,
+    "weight": 90,
+    "bmi": 28.39,
+    "verdict": "Overweight"
+  },
+  "3": {
+    "name": "Sara Ahmed",
+    "city": "Chicago",
+    "age": 29,
+    "gender": "Female",
+    "height": 1.60,
+    "weight": 50,
+    "bmi": 19.53,
+    "verdict": "Normal weight"
+  },
+  "4": {
+    "name": "James Smith",
+    "city": "Dallas",
+    "age": 52,
+    "gender": "Male",
+    "height": 1.82,
+    "weight": 112,
+    "bmi": 33.81,
+    "verdict": "Obese"
+  },
+  "5": {
+    "name": "Lina Morales",
+    "city": "Miami",
+    "age": 40,
+    "gender": "Female",
+    "height": 1.70,
+    "weight": 72,
+    "bmi": 24.91,
+    "verdict": "Normal weight"
+  }
+}
