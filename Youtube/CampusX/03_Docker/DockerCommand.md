@@ -29,8 +29,8 @@ docker login
 docker push dockerhub_username/image_name
 ```
 
-## For Cleaning
-1. Remove Unused Docker Objects
+# For Cleaning
+## 1. Remove Unused Docker Objects
 ### These include stopped containers, unused volumes, dangling images, and build cache.
 ```bash
 docker system prune
@@ -40,7 +40,7 @@ To remove everything not currently used (containers, networks, images, build cac
 ```bash
 docker system prune -a
 ```
-2. Remove All Images, Containers, Volumes, and Networks
+## 2. Remove All Images, Containers, Volumes, and Networks
 ### All containers:
 ```bash
 docker rm $(docker ps -aq)
