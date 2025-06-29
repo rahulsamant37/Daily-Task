@@ -3,7 +3,6 @@ ipywidgets
 IPython
 langchain
 langgraph
-langchain_groq
 ipykernel
 pydantic
 langchain_community
