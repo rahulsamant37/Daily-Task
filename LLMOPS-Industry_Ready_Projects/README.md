@@ -1,0 +1,1 @@
+# Learning of LLMOPS-Industry_Ready Projects
