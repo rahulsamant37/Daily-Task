@@ -1,0 +1,27 @@
+[project]
+name = "all-rag-techniques"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepeval>=3.3.2",
+    "evaluation>=0.0.2",
+    "faiss-cpu>=1.11.0.post1",
+    "ipykernel>=6.30.0",
+    "langchain>=0.3.27",
+    "langchain-aws>=0.2.29",
+    "langchain-cohere>=0.4.4",
+    "langchain-community>=0.3.27",
+    "langchain-google-genai>=2.1.8",
+    "langchain-groq>=0.3.6",
+    "langchain-huggingface>=0.3.1",
+    "langchain-ollama>=0.3.6",
+    "langchain-openai>=0.3.28",
+    "pandas>=2.3.1",
+    "pymupdf>=1.26.3",
+    "pypdf>=5.9.0",
+    "python-dotenv>=1.1.1",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.7.1",
+]
