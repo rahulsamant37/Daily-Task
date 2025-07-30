@@ -6,8 +6,6 @@ langgraph
 ipykernel
 pydantic
 langchain_community
-langchain_experimental
-duckduckgo-search
 boto3
 groq
 pyttsx3
@@ -22,7 +20,6 @@ agno
 duckduckgo-search
 googlesearch-python
 langchain_mcp_adapters
-langgraph
 streamlit
 langchain_experimental
 openai
