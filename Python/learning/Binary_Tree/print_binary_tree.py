@@ -17,4 +17,4 @@ def print_binary_tree(root):
 
 root1, root2, root3 = predefine_binary_tree_inputs()
 
-print_binary_tree(root1)
+# print_binary_tree(root1)
