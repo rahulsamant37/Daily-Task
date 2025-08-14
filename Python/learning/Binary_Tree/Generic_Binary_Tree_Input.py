@@ -21,9 +21,14 @@ def predefine_binary_tree_inputs():
     root3 = BinaryTreeNode(100)
     root3.left = BinaryTreeNode(200)
     root3.right = BinaryTreeNode(300)
+
     root3.left.right = BinaryTreeNode(400)
+    root3.left.right.left = BinaryTreeNode(700)       # left-only child
+    root3.left.right.left.right = BinaryTreeNode(800) # right-only child
+
     root3.right.left = BinaryTreeNode(500)
     root3.right.right = BinaryTreeNode(600)
+    root3.right.right.right = BinaryTreeNode(900)     # deeper leaf
 
     return root1, root2, root3
 
