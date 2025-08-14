@@ -51,11 +51,15 @@ def predefine_binary_tree_inputs():
 
 # Tree 3:
 
-#      100
-#     /   \
-#  200     300
-#    \     /  \
-#   400  500  600
+#          100
+#         /   \
+#      200     300
+#        \     /   \
+#       400  500   600
+#      /            \
+#    700            900
+#      \
+#      800
 
 # Returns:
 #     tuple: A tuple containing the roots of the three binary trees (root1, root2, root3).
