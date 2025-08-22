@@ -27,5 +27,6 @@ dependencies = [
     "sentence-transformers>=5.1.0",
     "spacy>=3.8.7",
     "tiktoken>=0.10.0",
+    "unsloth>=2025.8.9",
     "unstructured>=0.18.11",
 ]
