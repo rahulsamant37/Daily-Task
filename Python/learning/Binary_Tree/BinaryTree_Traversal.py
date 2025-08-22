@@ -16,7 +16,25 @@ def postorder_traversal(root):
     postorder_traversal(root.right)
     print(root.data, end=" ")
 
+def inorder_traversal(root):
+    if root is None:
+        return
+    inorder_traversal(root.left)
+    print(root.data, end=" ")
+    inorder_traversal(root.right)
+
+
 # print('---------------#### PRE ORDER TRAVERSAL ####---------------')
 # preorder_traversal(root1)
 # print('\n---------------#### POST ORDER TRAVERSAL ####---------------')
 # postorder_traversal(root1)
+# print('\n---------------#### IN ORDER TRAVERSAL ####---------------')
+# inorder_traversal(root1)
+
+##
+# Tree
+#       1
+#     /   \
+#    2     3
+#  /  \   /
+# 4    5 6
