@@ -1,4 +1,4 @@
-from Generic_Binary_Tree_Input import predefine_binary_tree_inputs
+from helper import predefine_binary_tree_inputs
 
 def height(root):
     if root is None:
