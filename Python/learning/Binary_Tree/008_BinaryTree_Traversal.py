@@ -1,4 +1,4 @@
-from Generic_Binary_Tree_Input import predefine_binary_tree_inputs
+from helper import predefine_binary_tree_inputs
 
 root1, root2, root3 = predefine_binary_tree_inputs()
 
