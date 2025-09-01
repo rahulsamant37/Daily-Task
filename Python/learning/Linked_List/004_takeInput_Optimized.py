@@ -1,6 +1,15 @@
 from helper import printLL, LinkedList
 
 def takeInputOptimized():
+    """
+    Benefits of Head–Tail (Iterative) Approach
+    | Aspect        | Recursive Version       | Iterative Head–Tail Version |
+    | ------------- | ----------------------- | --------------------------- |
+    | Stack usage   | `O(n)`                  | `O(1)`                      |
+    | Risk of crash | Yes (stack overflow)    | No                          |
+    | Performance   | Slower (function calls) | Faster                      |
+    | Scalability   | Limited                 | Better for large input      |
+    """
     val = int(input("Enter the data for Node (-1 to exit): "))
     head, tail = None, None
     
