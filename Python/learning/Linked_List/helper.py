@@ -43,3 +43,10 @@ def predefine_linked_list_inputs():
 
     return head1, head2, head3
 
+def printLL(head):
+    if head is None:
+        return None
+    temp = head
+    while temp:
+        print(temp.data, end="-> ")
+        temp = temp.next
