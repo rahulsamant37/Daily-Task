@@ -1,4 +1,8 @@
-from BinaryTreeNode import BinaryTreeNode
+class BinaryTreeNode:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
 
 def predefine_binary_tree_inputs():
     # Binary Tree 1
