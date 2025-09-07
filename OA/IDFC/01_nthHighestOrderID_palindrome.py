@@ -18,12 +18,11 @@ def nthHighestOrderID(M, N):
 # because it skips non-palindromic numbers altogether.
 ## O(N) (worst case), O(log M), 
 def nthHighestOrderID_Optimized(M, N):
-    res = 0
     found = 0
     
     # We only need palindromes up to ~10 digits since M < 2^31
     # Generate by mirroring half numbers
-    length = 1
+    length = len(str(M))
     while True:
         half_len = (length + 1) // 2
         start = 10**(half_len - 1) if half_len > 1 else 1
