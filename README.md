@@ -8,7 +8,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c592203a-88ef-45da-9095-260ffed842c9" width="100%" alt="Development Journey Banner">
+  <img src="https://github.com/user-attachments/assets/e3796915-cb78-45bd-aab6-05d1445389b0" width="100%" alt="Development Journey Banner">
 </div>
 
 ## 💡 About This Repository
