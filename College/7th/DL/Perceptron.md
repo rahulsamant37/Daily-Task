@@ -34,6 +34,8 @@ A4: Both are linear classifiers, but:
 **Q5: Why can’t a single-layer perceptron solve the XOR problem?**  
 A5: XOR is not linearly separable, meaning no straight line can divide the classes. A single-layer perceptron only models linear decision boundaries.
 
+<img width="708" height="401" alt="image" src="https://github.com/user-attachments/assets/5714925e-9f71-4083-97ed-66b67ea2a2b1" />
+
 ---
 
 **Q6: What is the role of the activation function in a perceptron?**  
