@@ -1,4 +1,3 @@
-```markdown
 # 🔹 Conceptual Questions
 
 **Q1: Define a perceptron. What are its components?**  
@@ -176,5 +175,4 @@ A19:
 **Q20: State true or false: A perceptron can learn any binary function.**
 A20: False. It can only learn linearly separable functions.
 
-```
 ```
