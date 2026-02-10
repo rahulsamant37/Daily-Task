@@ -205,3 +205,6 @@ __marimo__/
 
 # cph extenstion
 .cph
+
+# cpp executable
+*.exe
