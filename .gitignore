@@ -208,3 +208,4 @@ __marimo__/
 
 # cpp executable
 *.exe
+*.out
