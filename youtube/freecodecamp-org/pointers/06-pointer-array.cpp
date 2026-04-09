@@ -1,8 +1,3 @@
-/*
-Author: Baldy Cape
-Created: 2026-03-01 03:41:53
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
