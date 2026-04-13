@@ -56,3 +56,8 @@ dependencies = [
     "wandb>=0.22.2",
     "wheel>=0.45.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "youtube/neural-nine/graph-coloring-algorithm",
+]
