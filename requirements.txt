@@ -13,7 +13,6 @@ speechRecognition
 wikipedia
 pyaudio
 gtts
-playsound
 chromadb
 chroma-hnswlib
 agno
@@ -28,3 +27,4 @@ langchain_ollama
 langchain_groq
 langchain_google_genai
 langgraph
+reasoning-from-scratch
