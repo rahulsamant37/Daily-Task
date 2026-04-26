@@ -45,8 +45,10 @@ int main() {
     func2(arr, n);
     func3(arr, n);
     int *p = fun(5);
-    for (int *i: p) {
-        cout << i;
+    // is you create a pointer at heap you can access the pointer anywhere
+    cout << "this is where fun start" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << p[i] << endl;
     }
     return 0;
 }
