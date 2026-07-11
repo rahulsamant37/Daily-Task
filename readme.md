@@ -1,116 +1,98 @@
-# 🚀 DAILY-TASK: My Learning & Development Journey
-> *"A repository that captures my growth across MLOps, AI Engineering, and Full Stack Development - where every commit is a step forward."*
-
-[![MLOps](https://img.shields.io/badge/MLOps-Active-brightgreen)]() 
-[![AI](https://img.shields.io/badge/Agentic--AI-Exploring-blue)]() 
-[![Python](https://img.shields.io/badge/Python-DSA-orange)]()
-
----
-
 <div align="center">
-  <img src="./obsession.jpg" width="100%" alt="Development Journey Banner">
+
+# 🚀 DAILY-TASK: The Engineering Forge
+> *"Comfort < Motivation < Discipline < Obsession. Where High-Frequency Trading, Low-Latency Systems, and Agentic AI converge."*
+
+<img src="./obsession.jpg" width="100%" alt="Obsession Banner" style="border-radius: 10px; margin: 15px 0;">
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++20" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
+</p>
+
 </div>
 
-## 💡 About This Repository
-This repository documents my learning journey and practical implementations across various domains. It serves as both a portfolio and a knowledge base, containing:
-- **MLOps Projects**: Production-ready machine learning implementations
-- **AI Engineering**: Cutting-edge work with Agentic AI and RAG systems
-- **Core Development**: DSA practice and Python fundamentals
+---
+
+## ⚡ About This Forge
+This repository is the central nervous system of my daily engineering output. It captures my continuous evolution across **Low-Latency Architecture**, **Quantitative Finance**, and **AI Engineering**. As an MTech student at **IIT Bombay**, this mono-repo serves as my sandbox, practice ground, and project portfolio.
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂️ Intent-Based Architecture
+The repository is strictly organized by intent to separate production-grade builds from sandbox experiments:
+
 ### 🏗️ Projects (`/projects`)
-- **article_tracker**: Full-stack application for tracking articles
-- **agentic-ai**: Implementation of RAG, LangChain, and Custom AI Tools
-- **MLOps**: Production ML pipeline implementations and tracking
+*Production-ready implementations and complex systems.*
+- **`article_tracker/`**: Full-stack application with end-to-end pipeline integration.
+- **`agentic-ai/`**: Cutting-edge implementations of RAG, LangChain, and autonomous AI agents.
+- **`mlops/`**: Production ML pipeline architecture, model versioning, and deployment tracking.
 
-### 🏋️ Practice (`/practice`)
-- **cp**: Competitive programming (Codeforces, contests)
-- **oa**: Online assessment practice and solutions
+### 🏋️ Core Practice (`/practice`)
+*Sharpening the sword: algorithms, execution speed, and problem-solving.*
+- **`cp/`**: Competitive programming (Codeforces, advanced data structures).
+- **`oa/`**: Online assessment solutions and algorithmic drills.
 
-### 📖 Sandbox (`/sandbox`)
-- **udemy-course**: Following Udemy course materials
-- **youtube**: Following YouTube tutorials
-- **Languages**: `learn-cpp`, `learn-java`, `learn-lua`, `learn-python`
-- **docs**: Various documentation notes
+### 📖 The Sandbox (`/sandbox`)
+*R&D, tutorials, and language mastery.*
+- **Languages**: Deep-dives into `C++`, `Java`, `Lua`, and `Python`.
+- **R&D**: Following advanced courses, YouTube architectures, and documentation notes.
 
-### 🎓 College (`/college`)
-- Academic assignments and projects
+### 🎓 Academia (`/college`)
+*IIT Bombay Coursework.*
+- **7th Semester**: Advanced algorithms, systems architecture assignments, and academic research.
 
 ### 🛠️ Shared (`/shared`)
-- Helper scripts, utilities, and general shared tools
+*Infrastructure and Tooling.*
+- Helper scripts, shared utilities, and repository management tools.
 
 ---
 
-## 🔍 Key Projects & Implementations
-### MLOps Pipeline
-```python
-# MLflow experiment tracking and model deployment
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
-mlflow.set_experiment("ml-production")
-with mlflow.start_run():
-    mlflow.sklearn.log_model(model, "model")
-```
+## 🔭 Current Trajectory
 
-### Agentic AI Systems
-```python
-# Advanced RAG implementation
-from langchain_core.prompts import PromptTemplate
-from langchain_community.vectorstores import FAISS
-# ...implementing intelligent document retrieval
-```
+1. **⚡ Low-Latency Systems & Core Engineering**
+   - Architecting highly concurrent systems in **C/C++**.
+   - Optimizing execution logic, CPU cache utilization, and memory management.
+
+2. **📈 Quantitative Finance & HFT**
+   - Researching mathematical strategies and order book dynamics.
+   - Building execution frameworks for High-Frequency Trading.
+
+3. **🧠 AI Engineering & R&D**
+   - Bridging Deep Learning (PyTorch/LLMs) with pure statistical modeling.
+   - Building scalable, agentic AI infrastructure (LangGraph/LangChain).
 
 ---
 
-## 🛠️ Technology Stack
-```
-             ┌──────────────┐
-             │   AI/ML      │
-┌────────┐   │LangChain    │   ┌──────────┐
-│Data    │   │MLflow       │   │Tools     │
-│Python  │───│HuggingFace  │───│Jupyter   │
-│SQL     │   │Transformers │   │Git       │
-└────────┘   └──────────────┘   └──────────┘
-             │  Frameworks  │
-             │ FastAPI     │
-             │ Sklearn     │
-             │ PyTorch     │
-             └──────────────┘
-```
+## 🛠️ Technology Arsenal
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Core & Systems** | `C++20`, `C`, `Python`, `NeoVim`, `Arch Linux` |
+| **Data & AI** | `PyTorch`, `Pandas`, `NumPy`, `LangChain`, `MLflow` |
+| **Infrastructure** | `AWS`, `Docker`, `FastAPI`, `GitHub Actions` |
 
 ---
 
-## 📈 Learning Progress
-- **MLOps**: Implementing production-grade ML pipelines
-- **AI Engineering**: Building advanced RAG systems and agentic AI
-- **Python**: Mastering DSA and backend development
-- **Best Practices**: CI/CD, testing, and documentation
+## 🤝 Establish Connection
+I'm always open to discussing system architecture, HFT strategies, and AI implementations.
 
----
+<div align="left">
+  <a href="https://www.linkedin.com/in/rahul-samant-kb37/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:rahulsamantcoc2@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/rahulsamant37" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</div>
 
-## 🎯 Current Focus Areas
-1. **Low-Latency Systems & Core Engineering**
-   - Architecting systems and optimizing execution logic in C/C++
-   - Advanced algorithms and systems architecture (MTech @ IIT Bombay)
-2. **Quantitative Finance & HFT**
-   - Researching mathematical strategies
-   - Building frameworks for High-Frequency Trading
-3. **AI Engineering & R&D**
-   - Bridging Deep Learning/LLMs with statistical modeling
-   - Building highly scalable infrastructure
+<br/>
 
----
-
-## 🤝 Connect & Collaborate
-I'm always interested in discussing:
-- ML/AI implementations
-- Production system architecture
-- Best practices in software engineering
-
-📧 Reach out at: [rahulsamantcoc2@gmail.com](mailto:rahulsamantcoc2@gmail.com)  
-🔗 LinkedIn: [linkedin.com/in/rahul-samant-kb37](https://www.linkedin.com/in/rahul-samant-kb37/)
-
----
-
-*"Building tomorrow's solutions, one commit at a time."*
+<div align="center">
+  <i>"Building tomorrow's infrastructure, one optimized cycle at a time."</i>
+</div>
