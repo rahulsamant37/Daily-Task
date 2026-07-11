@@ -8,7 +8,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e3796915-cb78-45bd-aab6-05d1445389b0" width="100%" alt="Development Journey Banner">
+  <img src="./obsession.jpg" width="100%" alt="Development Journey Banner">
 </div>
 
 ## 💡 About This Repository
@@ -90,17 +90,15 @@ from langchain_community.vectorstores import FAISS
 ---
 
 ## 🎯 Current Focus Areas
-1. **MLOps Excellence**
-   - Model versioning and deployment
-   - Experiment tracking
-   - Pipeline automation
-2. **AI Engineering**
-   - Advanced RAG architectures
-   - LLM integration
-   - Custom tool development
-3. **Core Development**
-   - System design
-   - Clean code practices
+1. **Low-Latency Systems & Core Engineering**
+   - Architecting systems and optimizing execution logic in C/C++
+   - Advanced algorithms and systems architecture (MTech @ IIT Bombay)
+2. **Quantitative Finance & HFT**
+   - Researching mathematical strategies
+   - Building frameworks for High-Frequency Trading
+3. **AI Engineering & R&D**
+   - Bridging Deep Learning/LLMs with statistical modeling
+   - Building highly scalable infrastructure
 
 ---
 
