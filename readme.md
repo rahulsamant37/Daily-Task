@@ -20,20 +20,26 @@ This repository documents my learning journey and practical implementations acro
 ---
 
 ## 🗂️ Repository Structure
-### 📊 MLOps
-- **MLflow Projects**: Production ML pipeline implementations
-- **DLMLFLOW**: Deep learning with MLflow integration
-- **Model Tracking**: Experiment monitoring and version control
+### 🏗️ Projects (`/projects`)
+- **article_tracker**: Full-stack application for tracking articles
+- **agentic-ai**: Implementation of RAG, LangChain, and Custom AI Tools
+- **MLOps**: Production ML pipeline implementations and tracking
 
-### 🤖 Agentic-AI
-- **RAG Systems**: Implementation of Retrieval Augmented Generation
-- **LangChain Integration**: Advanced language model applications
-- **Tools & Utilities**: Custom AI tool development
+### 🏋️ Practice (`/practice`)
+- **cp**: Competitive programming (Codeforces, contests)
+- **oa**: Online assessment practice and solutions
 
-### 💻 Python Development
-- **DSA Practice**: Data structures and algorithms implementation
-- **Problem Solving**: Coding challenges and solutions
-- **Best Practices**: Clean code and optimization techniques
+### 📖 Sandbox (`/sandbox`)
+- **udemy-course**: Following Udemy course materials
+- **youtube**: Following YouTube tutorials
+- **Languages**: `learn-cpp`, `learn-java`, `learn-lua`, `learn-python`
+- **docs**: Various documentation notes
+
+### 🎓 College (`/college`)
+- Academic assignments and projects
+
+### 🛠️ Shared (`/shared`)
+- Helper scripts, utilities, and general shared tools
 
 ---
 
